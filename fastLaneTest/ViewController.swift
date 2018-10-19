@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let desVC = segue.destination as! NewViewController
-        desVC.color = "black"
+        desVC.color = "white"
     }
 }
 
