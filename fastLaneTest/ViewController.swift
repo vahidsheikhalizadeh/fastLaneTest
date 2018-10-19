@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("application is lunched!")
     }
-
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let desVC = segue.destination as! NewViewController
+        desVC.color = "black"
+    }
 }
 

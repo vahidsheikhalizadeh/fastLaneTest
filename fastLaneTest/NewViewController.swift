@@ -10,6 +10,8 @@ import UIKit
 
 class NewViewController: UIViewController {
 
+    var color : String = "red"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

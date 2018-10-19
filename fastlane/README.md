@@ -15,14 +15,14 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### beta
-```
-fastlane beta
-```
-
 ### codeSign
 ```
 fastlane codeSign
+```
+
+### build
+```
+fastlane build
 ```
 
 ### screenshots
